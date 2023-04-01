@@ -5,8 +5,10 @@ const Configure ={
   setTimeout:4000,
 
   use:{
-    //headless:false,
-    //video:'off'
+    //baseURL:"https://eticket.railway.gov.bd/",
+    headless:on,
+    video:'off',
+    screenshot:'off'
   }
 }
 

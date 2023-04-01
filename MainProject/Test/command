@@ -1,0 +1,16 @@
+For headed
+
+npx playwright test Test/example.spec.js --headed
+
+For All test Run
+
+npx playwright test
+
+For Suite
+
+npx playwright test --grep smoke
+
+for install
+
+npm install -D @playwright/test
+
