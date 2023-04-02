@@ -1,6 +1,6 @@
 For headed
 
-npx playwright test Test/example.spec.js --headed
+npx playwright test Test/BeforeAndAfterEach.spec.js --headed
 
 For All test Run
 
@@ -13,4 +13,14 @@ npx playwright test --grep smoke
 for install
 
 npm install -D @playwright/test
+
+test Run in chorme
+
+npx playwright test Test/BeforeAndAfterEach.spec.js --headed 
+
+for report
+
+npx playwright test --reporter=html
+
+npx playwright show-report
 

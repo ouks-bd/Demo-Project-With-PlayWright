@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "@playwright/test": "^1.32.1"
+  },
+  "scripts": {
+    "test:chorme": "npx playwright test tests --config=BeforeAndAfterEach.config.js --project=chorme",
+    "test:firefox": "npx playwright test --config=BeforeAndAfterEach.config.js --project=firefox"
   }
 }
