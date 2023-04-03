@@ -24,3 +24,28 @@ npx playwright test --reporter=html
 
 npx playwright show-report
 
+code generation for web
+
+npx playwright codegen https://eticket.railway.gov.bd/
+
+code generation for Mobile
+npx playwright codegen --device="iPhone 12 Pro" https://eticket.railway.gov.bd/
+
+one user 
+npx playwright test --workers 1
+
+npx playwright options
+
+npx playwright -h
+
+for screenshot
+
+npx playwright screenshot --help
+
+
+
+
+
+
+
+
