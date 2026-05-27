@@ -102,6 +102,7 @@ test.describe('PNC Personal Banking – Homepage Tests', () => {
   // TC-HP | Cross-page Navigation
   // ──────────────────────────────────────────────────────────
 
+  
   test('TC-HP-016 | Clicking Locations navigates to locator subdomain', async ({ page }) => {
     await homePage.clickLocations();
     await page.waitForURL(/locator\.pnc\.com\/en\/search/);
