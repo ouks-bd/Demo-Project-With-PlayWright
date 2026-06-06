@@ -18,6 +18,9 @@
   "homepage": "https://github.com/ouks-bd/Demo-Project-With-PlayWright#readme",
   "devDependencies": {
     "@playwright/test": "^1.60.0",
-    "@types/node": "^25.9.1"
+    "@types/node": "^25.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
   }
 }
