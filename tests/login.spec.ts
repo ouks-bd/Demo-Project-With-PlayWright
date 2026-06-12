@@ -5,10 +5,10 @@ test('User can login successfully', async ({ page }) => {
 
 await page.fill('#user-name', process.env.SAUCE_USERNAME!);
 await page.fill('#password', process.env.SAUCE_PASSWORD!);
-  await page.click('#login-button');
+await page.click('#login-button');
 
-  await expect(page).toHaveURL(/inventory.html/);
-  await expect(page.locator('.title')).toHaveText('Products');
+await expect(page).toHaveURL(/inventory.html/);
+await expect(page.locator('.title')).toHaveText('Products');
 });
 
 // import { test, expect } from '@playwright/test';
